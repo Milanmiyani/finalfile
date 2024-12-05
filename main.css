@@ -4,7 +4,8 @@
     font-family: serif;
     box-sizing: border-box;
 }
-img{
+body{
+    background-image: url;
     margin: 80px;
     height: 50vh;
     max-width: 100%;
