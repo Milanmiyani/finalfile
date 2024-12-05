@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url;
+    background-image: url("image/about-img.png");
     margin: 80px;
     height: 50vh;
     max-width: 100%;
