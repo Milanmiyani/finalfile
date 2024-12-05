@@ -41,3 +41,17 @@ body{
 .container{
     align-self: center;
 }
+
+@media(max-width: 432px){
+    .navbar nav{
+        padding: 10px 20px;
+    }
+    .navbar nav a{
+        font-size: 15px;
+       
+    } 
+    .navbar nav .link a{
+        font-size: 15px;
+        padding: 4px 0px;
+    } 
+}
