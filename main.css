@@ -6,7 +6,7 @@
 }
 body{
     background-image: url("image/about-img.png");
-    height: 50vh;
+    height: 20vh;
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,9 +27,9 @@ body{
     
 }
 .navbar nav .link a{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
-    padding: 4px 10px;
+    padding: 4px 6px;
     color: black;
 }
 .navbar nav .link a:hover{
