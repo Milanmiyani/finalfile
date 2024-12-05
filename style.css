@@ -82,7 +82,7 @@ body{
         background-image: url("image/background1.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
+        height: 00px;
     
     }
     .info h1{
@@ -109,6 +109,13 @@ body{
   
 }
 @media(max-width:770px){
+    body{
+        background-image: url("image/background1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    
+    }
     .footer{
         flex-direction: column;
         text-align: center;
@@ -136,8 +143,8 @@ body{
         background-image: url("image/background1.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
     
+        height: 500px;
     }
     .info h1{
         font-size: 14px;
