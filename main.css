@@ -6,7 +6,7 @@
 }
 body{
     background-image: url("image/about-img.png");
-    height: 20vh;
+    height: 50vh;
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body{
     align-self: center;
 }
 
-@media(max-width: 465px){
+@media(max-width: 430px){
     .navbar nav{
         padding: 10px 20px;
     }
@@ -51,7 +51,7 @@ body{
        
     } 
     .navbar nav .link a{
-        font-size: 20px;
-        padding: 4px 0px;
+        font-size: 15px;
+        padding: 4px 2px;
     } 
 }
