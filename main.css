@@ -42,7 +42,7 @@ body{
     align-self: center;
 }
 
-@media(max-width: 450px){
+@media(max-width: 370px){
     .navbar nav{
         padding: 10px 20px;
     }
@@ -51,7 +51,7 @@ body{
        
     } 
     .navbar nav .link a{
-        font-size: 5px;
-        padding: 4px 0px;
+        font-size: 15px;
+        padding: 4px 2px;
     } 
 }
