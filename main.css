@@ -4,99 +4,269 @@
     font-family: serif;
     box-sizing: border-box;
 }
-.navbar{
-    padding: 15px 20px;
+body{
+    background-image: url("image/background.png");
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 800px;
 }
-.navbar nav{
-    justify-content: space-between;
-    display: flex;
+nav{
+    margin: 0px;
+    padding: 10px;
+    background-color: #f5f5f5;
 }
 
-.navbar nav  a{
-    padding: 0px 20px;
-    color: #fff;
-    font-family: serif;
+nav a{
     text-decoration: none;
     font-size: 20px;
+    padding: 10px 20px;
+    color: black;
 }
-.navbar nav  a:hover{
-  color: orange;
-  transition: 0.5s ease;
+nav a:hover{
+    background-color: orange;
+    border-radius: 5px;
+    color: #f5f5f5;
+    padding: 5px 20px;
 }
-.navbar nav i{
+
+nav input{
+    margin-left: 580px;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+nav button{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: black;
     color: #fff;
+    border: none;   
+    border-radius: 5px;
 }
-body{
-    background-image: url("image/hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: auto;
+nav button:hover{
+    background-color: orange;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.info h1{
+    padding: 250px 253px;
+}
+.info h1 button{
+    background-color: black;
+    font-size: 17px;
+    padding: 8px 31px;
+    border: 1px solid black;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.info h1 button:hover{
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+
+
+
+.product{
+    padding-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.product .box img{
+    width: 280px;
+    height: 300px;
+    text-align: center;
+}
+.product .box{
+    width: 280px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.product .box .details{
+    text-align: center;
+    font-size: 15px;
+    background-color: #f5f5f5;
+
+}
+#addtocard{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#addtocard:hover{
+    background-color: #fff;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s ease;
+}
+#buynow{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: #fff;
+ 
+    border-radius: 5px;
+
+}
+#buynow:hover{
+    background-color: #fff;
+    border: 1px solid orange;
+    color: black;
+    transition: 0.5s ease;
+}
+
+@media(max-width: 1024px)
+{
+    body{
+        background-image: url("image/background.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    nav input{
+        margin-left: 170px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    .info h1{
+        font-size: 25px;
+        padding: 230px 153px;
+    }
+    .info h1 button{
+        padding: 5px 31px;
+        font-size: 15px;
+    }
+    .product{
+        margin-top: -180px;
+        
+    }
+    .product .box img{
+      
+        text-align: center;
+    }
+}
+@media(min-width: 1366px){
+    nav input{
+        margin-left: 535px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+}
+
+
+
+@media (max-width: 600px)
+{
+    body{
+        background-image: url("image/background.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    nav input{
+        margin-left: 72px;
+        font-size: 12px;
+        padding: 4px 5px;
+        width: 103px;
+    }
     
-}
-.container .details{
-    padding-left: 150px;
-    padding-top: 250px;
-   
-}
-.container .details h1{
-    color: #fff;
-    font-size: 55px;
-   
-}
-.container .details p{
-    color: #fff;
-    font-size: 18px;
-
-}
-img{
-    float: right;
-   width: 400px;
-   margin-right: 150px;
-   margin-top: -280px;
-  animation: MoveUpDown 1s linear infinite;
-  position:relative;
-  left: 0;
-  bottom: 0;
-
-
-}
-@keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
+    nav button{
+        padding: 5px 12px;
     }
-    50% {
-      bottom: 40px;
+    nav a{
+            font-size: 15px;
+            padding: 10px 6px;
     }
-  }
-
-  @media(max-width: 1200px)
-  {
-    .container .details{
-        padding-left: 150px;
-        padding-top: 250px;
-       
-    }
-    .container .details h1{
-        color: #fff;
-        font-size: 40px;
-       
-    }
-    .container .details p{
-        color: #fff;
+    .product{
+        margin-top: -150px;
+      }
+      .product .box{
+          width: 350px;
+      }
+      .product .box img{
+          width: 280px;
+          height: 300px;
+          text-align: center;
+      }
+     .info h1{
         font-size: 14px;
-    
+        padding: 98px 152px
     }
-    img{
-        float: right;
-       width: 340px;
-       margin-right: 100px;
-       margin-top: -180px;
-      animation: MoveUpDown 1s linear infinite;
-      position:relative;
-      left: 0;
-      bottom: 0;
-    
-    
+     #addtocard{
+        padding: 10px 35px;
+        font-size: 20px;
+       
     }
-  }
+    #buynow{
+        padding: 10px 35px;
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media(max-width: 430px){
+    body{
+        background-image: url("image/background.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    nav a{
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+    nav input{
+        margin-left: -0px;
+        font-size: 12px;
+        padding: 1px 1px;
+        width: 80px;
+    }
+    nav button{
+        padding: 2px 9px;
+    }
+    .info h1
+    {
+        padding: 92px 74px;
+        font-size: 11px;
+    }
+    .product .box{
+        width: 350px;
+    }
+    .product .box{
+        width: 250px;
+    }
+    .product .box img{
+        width: 250px;
+        height: 200px;
+        text-align: center;;
+    }
+    .product .box .details{
+        text-align: center;
+        font-size: 10px;
+        background-color: #f5f5f5;
+    }
+    #addtocard{
+        font-size: 16px;
+        padding: 7px 25px;
+    }
+    #buynow{
+        font-size: 16px;
+        padding: 7px 25px;
+    }
+ 
+}
+
