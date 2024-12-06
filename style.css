@@ -196,6 +196,14 @@ h1{
 
 }
 @media(max-width: 961px){
+    .background img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 98.99vw;
+        height: 60vh;
+        position: relative;
+    
+    }
     .footer{
         flex-direction: column;
         text-align: center;
