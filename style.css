@@ -206,7 +206,7 @@ h1{
     
     }
     .footer{
-       flex-direction:calc(20,20,20,20);
+        flex-direction:column;
         text-align: center;
     }
     .footer .cols h2{
