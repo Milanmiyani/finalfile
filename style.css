@@ -107,7 +107,7 @@ h1{
     border-radius: 5px;
     padding: 5px 13px;
 }
-.product .box form #btnbubuynowynow:hover{
+.product .box form #buynow:hover{
     background-color: white;
     border: 1px solid orange;
 }
