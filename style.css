@@ -38,7 +38,7 @@
 .background img{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 98.99vw;
+    width: 100vw;
     height: 100vh;
     position: relative;
 
@@ -92,6 +92,7 @@ h1{
 .product .box form #addtocard{
     background-color: green;
     border: 1px solid green;
+    color: white;
     font-size: 17px;
     border-radius: 5px;
     padding: 5px 13px;
@@ -103,6 +104,7 @@ h1{
 .product .box form #buynow{
     background-color: orange;
     border: 1px solid orange;
+    color: white;
     font-size: 17px;
     border-radius: 5px;
     padding: 5px 13px;
@@ -159,7 +161,7 @@ h1{
     .background img{
         background-size: cover;
         background-repeat: no-repeat;
-        width: 98.99vw;
+        width: 99vw;
         height: 60vh;
         position: relative;
     
@@ -199,7 +201,7 @@ h1{
     .background img{
         background-size: cover;
         background-repeat: no-repeat;
-        width: 98.99vw;
+        width: 100vw;
         height: 60vh;
         position: relative;
     
