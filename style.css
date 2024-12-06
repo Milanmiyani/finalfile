@@ -117,6 +117,7 @@ h1{
     justify-content: space-between;
     background-color: #f5f5f5;
     margin-top: 100px;
+ 
 }
 .footer .cols h2{
     padding: 5px 0px;
@@ -152,4 +153,15 @@ h1{
 }
 .footer .cols i:hover{
  color: blue;
+}
+
+@media(max-width: 760px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .cols h2{
+        padding-top: 20px ;
+    }
+
 }
