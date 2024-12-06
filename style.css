@@ -195,7 +195,7 @@ h1{
     
 
 }
-@media(max-width: 961px){
+@media(max-width: 1025px){
     .background img{
         background-size: cover;
         background-repeat: no-repeat;
