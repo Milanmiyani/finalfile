@@ -38,7 +38,7 @@
 .background img{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 98.99vw;
     height: 100vh;
     position: relative;
 
@@ -110,4 +110,46 @@ h1{
 .product .box form #btnbubuynowynow:hover{
     background-color: white;
     border: 1px solid orange;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    margin-top: 100px;
+}
+.footer .cols h2{
+    padding: 5px 0px;
+
+}
+.footer .cols #p1,#p2{
+    font-size: 20px;
+    padding: 5px 20px;
+    color: orange;
+
+}
+
+.footer .cols a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    
+    transition:  0.5s ease;
+}
+.footer .cols a:hover{
+    transform: translateX(20px);
+    color: gray;
+}
+
+.footer .cols #p3{
+    font-size: 18px;
+    padding: 5px 00px;
+    color: orange;
+}
+.footer .cols i{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+.footer .cols i:hover{
+ color: blue;
 }
