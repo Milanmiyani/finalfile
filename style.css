@@ -136,11 +136,8 @@ h1{
     font-size: 18px;
     color: black;
     text-decoration: none;
-    
-    transition:  0.5s ease;
 }
 .footer .cols a:hover{
-    transform: translateX(20px);
     color: gray;
 }
 
@@ -213,6 +210,28 @@ h1{
     .footer .cols h2{
         padding-top: 20px ;
     }
+    .footer .cols a{
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+        
+    }
+    .footer .cols a:hover{
+        color: gray;
+    }
+    .footer .cols #p3{
+        font-size: 16px;
+            padding: 5px 00px;
+            color: orange;
+    }
+    .footer .cols i{
+        font-size: 18px;
+        padding:10px 18px;
+    }
+    .footer .cols i:hover{
+     color: blue;
+    }
+    
 
 }
 
