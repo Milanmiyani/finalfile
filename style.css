@@ -213,7 +213,7 @@ h1{
         padding-top: 20px ;
     }
     .footer .cols a{
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         text-decoration: none;
         
@@ -222,13 +222,13 @@ h1{
         color: gray;
     }
     .footer .cols #p3{
-        font-size: 16px;
+        font-size: 14px;
             padding: 5px 00px;
             color: orange;
     }
     .footer .cols i{
         font-size: 18px;
-        padding:10px 18px;
+        padding:10px 30px;
     }
     .footer .cols i:hover{
      color: blue;
