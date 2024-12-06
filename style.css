@@ -165,3 +165,14 @@ h1{
     }
 
 }
+@media(max-width: 961px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .cols h2{
+        padding-top: 20px ;
+    }
+
+}
+
