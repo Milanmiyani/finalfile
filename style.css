@@ -199,6 +199,7 @@ h1{
     }
     .footer .cols #p3{
         font-size: 16px;
+      
     }
     .footer .cols #p1,#p2{
         font-size:16px;
@@ -214,7 +215,7 @@ h1{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 45vh;
+        height: 60vh;
         position: relative;
     
     }
@@ -241,6 +242,7 @@ h1{
     }
     .footer .cols #p3{
         font-size: 16px;
+       
     }
     .footer .cols i{
         font-size: 18px;
