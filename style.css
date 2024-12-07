@@ -46,6 +46,7 @@
 h1{
     text-align: center;
     padding: 15px 0px;
+    
 }
 .checked{
     color: orange;
@@ -215,7 +216,7 @@ h1{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 60vh;
+        height: 45vh;
         position: relative;
     
     }
