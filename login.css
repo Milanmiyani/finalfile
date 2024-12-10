@@ -54,12 +54,23 @@
     color: orange;
     transition: 0.5s ease;
 }
-.login form a{
-   text-decoration: none;
-    padding-left: 180px;
+.login form #a1{
+    padding-left: 120px;
     color: red;
 }
 
+.login form p{
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+ }
+ .login form #a2{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+
+ }
+ 
 .login form button{
     background-color: orange;
     color: white;
@@ -67,7 +78,7 @@
     font-size: 17px;
     border: 1px solid orange;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .login form button:hover{
     background-color: white;
@@ -135,6 +146,13 @@
     .login form a{
          padding-left: 140px;
         
+     }
+     .login form p{
+        text-align: center;
+       
+     }
+     .login form #a2{
+        margin-left: -140px;
      }
      
 
