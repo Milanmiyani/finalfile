@@ -172,8 +172,14 @@ h1{
     
     }
     .footer{
-        flex-direction: column;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer .cols{
+        width: 130px;
+        overflow: hidden;
     }
     .footer .cols h2{
         padding-top: 20px ;
@@ -261,5 +267,4 @@ h1{
     
 
 }
-
 
