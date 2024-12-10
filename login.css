@@ -124,6 +124,7 @@
     }
     .login form h1{
         margin-bottom: 20px;
+        font-size:18px;
     }
 
     .login form button{
