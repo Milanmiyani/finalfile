@@ -110,3 +110,13 @@
     }
 
 }
+@media(max-width: 1025px){
+
+    .register form #address{
+        padding: 4px 12px;
+        width: 350px;
+   
+    }
+    
+
+}
