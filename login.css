@@ -40,7 +40,7 @@
 }
 .login form input{
     font-size: 16px;
-    padding: 4px 13px;
+    padding: 6px 13px;
     margin: 10px;
     width: 250px;
     border-radius: 5px;
@@ -117,7 +117,7 @@
     }
     .login form input{
         font-size: 16px;
-        padding: 4px 13px;
+        padding: 6px 13px;
         margin: 7px;
         width: 205px;
         border: 1px solid black;
@@ -130,6 +130,7 @@
     .login form button{
         padding: 4px 24px;
         font-size: 14px;
+        margin: 10px;
     }
     .login form a{
          padding-left: 140px;
