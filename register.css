@@ -47,8 +47,10 @@
     border: 1px solid black;
 }
 .register form #address{
-    padding: 4px 10px;
+    padding: 4px 12px;
+    font-size: 16px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 .register form h1{
     margin-bottom: 20px;
