@@ -36,7 +36,7 @@
 }
 .login form{
     text-align: center;
-    margin-top: 140px;
+    margin-top: 200px;
 }
 .login form input{
     font-size: 16px;
@@ -44,6 +44,7 @@
     margin: 10px;
     width: 250px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 .login form h1{
     margin-bottom: 20px;
@@ -115,10 +116,11 @@
         margin-top:100px;
     }
     .login form input{
-        font-size: 12px;
-        padding: 3px 13px;
+        font-size: 16px;
+        padding: 4px 13px;
         margin: 7px;
-        width: 200px;
+        width: 205px;
+        border: 1px solid black;
     }
     .login form h1{
         margin-bottom: 20px;
@@ -128,9 +130,14 @@
         transition: 0.5s ease;
     }
     .login form button{
-        padding: 3px 24px;
+        padding: 4px 24px;
         font-size: 14px;
     }
+    .login form a{
+         padding-left: 150px;
+        
+     }
+     
 
 
 }
