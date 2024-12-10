@@ -219,8 +219,16 @@ h1{
     
     }
     .footer{
-        flex-direction:column;
-        text-align: center;
+   
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+    .footer .cols{
+        width: 130px;
+        overflow: hidden;
     }
     .footer .cols #p1,#p2{
         font-size:16px;
@@ -245,7 +253,7 @@ h1{
     }
     .footer .cols i{
         font-size: 18px;
-        padding:10px 18px;
+        padding:0px 5px;
     }
     .footer .cols i:hover{
      color: blue;
