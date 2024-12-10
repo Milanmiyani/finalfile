@@ -62,7 +62,7 @@
 .login form p{
     text-align: center;
     font-size: 12px;
-    margin: 5px;
+    margin: 2px;
  }
  .login form #a2{
     text-align: center;
@@ -124,7 +124,7 @@
     }
     .login form{
       
-        margin-top:190px;
+        margin-top:170px;
     }
     .login form input{
         font-size: 16px;
@@ -149,11 +149,18 @@
      }
      .login form p{
         text-align: center;
+        font-size: 10px;
        
      }
      .login form #a2{
         margin-left: -140px;
+        font-size: 15px;
      }
+     .login form #a1{
+        padding-left: 100px;
+        font-size: 15px;
+    }
+    
      
 
 
