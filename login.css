@@ -38,6 +38,9 @@
     text-align: center;
     margin-top: 200px;
 }
+.login form span{
+    color: red;
+}
 .login form input{
     font-size: 16px;
     padding: 6px 13px;
@@ -130,11 +133,11 @@
         font-size: 16px;
         padding: 6px 13px;
         margin: 10px;
-        width: 240px;
+        width: 225px;
         border: 1px solid black;
     }
     .login form h1{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 22px;
     }
 
