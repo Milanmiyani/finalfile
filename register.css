@@ -115,7 +115,7 @@
         transition: 0.5s ease;
     }
     .register{
-        margin-top:60px;
+        margin-top:40px;
     }
     .register form input{
         width: 250px;
@@ -130,7 +130,9 @@
 
 }
 @media(max-width: 1025px){
-
+    .register form #address{
+        width: 250px;
+    }
     
 
 }
