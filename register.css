@@ -36,7 +36,7 @@
 
 .register form{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 .register form input{
@@ -52,10 +52,7 @@
 }
 
 .register form #address{
-    padding: 4px 12px;
-    font-size: 16px;
-    border: 1px solid black;
-    border-radius: 5px;
+    height: 30px;
 }
 .register form h1{
     margin-bottom: 20px;
@@ -122,13 +119,9 @@
     .register form input{
         width: 250px;
     }
-    .register form #address{
-        width: 250px;
-    }
+  
     .register form h1{
         font-size: 22px;
         margin-bottom: 25px;
     }
-
-
 }
