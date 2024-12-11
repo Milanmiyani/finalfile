@@ -86,6 +86,8 @@
 
 
 
+
+
 @media(max-width: 760px){
 
     .navbar nav .logo{
@@ -108,15 +110,20 @@
         border-radius: 5px;
         transition: 0.5s ease;
     }
+    .register{
+        margin-top:100px;
+    }
+    .register form input{
+        width: 250px;
+    }
+    .register form #address{
+        width: 250px;
+    }
+
 
 }
 @media(max-width: 1025px){
 
-    .register form #address{
-        padding: 4px 12px;
-        width: 350px;
-   
-    }
     
 
 }
