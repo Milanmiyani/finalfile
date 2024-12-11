@@ -116,7 +116,8 @@
         transition: 0.5s ease;
     }
     .register{
-        margin-top:40px;
+        margin-top:50px;
+        margin-bottom: 50px;
     }
     .register form input{
         width: 250px;
@@ -126,13 +127,14 @@
     }
     .register form h1{
         font-size: 22px;
+        margin-bottom: 25px;
     }
 
 
 }
 @media(max-width: 1025px){
     .register form #address{
-        width: 310px;
+        width: 350px;
     }
     
 
