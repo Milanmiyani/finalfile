@@ -37,6 +37,7 @@
 .register form{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .register form input{
     font-size: 16px;
@@ -131,7 +132,7 @@
 }
 @media(max-width: 1025px){
     .register form #address{
-        width:310px;
+        width: 310px;
     }
     
 
