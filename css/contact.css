@@ -42,14 +42,14 @@
 .contact form .info{
     margin-bottom:30px;
     text-align: left;
-    margin: 80px;
+    margin: 70px;
 }
 .contact form .info h5{
-  padding: 10px 0px;
+  padding: 20px 0px;
   color: orange;
 }
 .contact form label{
-    font-size: 20px;
+    font-size: 19px;
  
 }
 .contact form label span{
@@ -105,13 +105,18 @@
     .contact{
         align-items: center;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 50px;
         margin-bottom:50px;
     }
     .contact form input{
         width: 250px;
        
     }
-    
+    .contact form .info h2{
+      font-size: 20px;
+      }
+      .contact form {
+       margin-top: -50px;
+    }
 
 }
