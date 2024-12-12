@@ -160,5 +160,8 @@ h1{
     .card .box{
         margin-top: -30px;
     }
+    #map{
+        width: 100vw;
+    }
 
 }
