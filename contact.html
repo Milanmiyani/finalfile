@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact page</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">
+                <img src="image/4.png" alt="">
+             </div>
+             <div class="link">
+            <a href="index.html">HOME</a>
+            <a href="#">CATEGORY</a>
+            <a href="#">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="login.html">LOGIN</a>
+             </div>
+        </nav>
+     </div>
+
+     <!--Contact infromation-->
+     <div class="contact">
+        <form action="" method="post">
+        <div class="info">
+        <h5>Get in Touch</h5>
+        <h2>Write us a message</h2>
+        </div>
+        <label for="">Your Name:-<span> *</span></label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name...." required><br>
+        <label for="">Your Subject:-<span> *</span></label>
+        <input type="text" name="subjects" id="subjects" placeholder="Enter Your Subjects...." required><br>
+        <label for="" id="l1">Your Email:-<span> *</span></label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email...." required><br>
+        <label for="" id="l1">Your Phone:-<span> *</span></label>
+        <input type="text"  pattern="\d{10}" maxlength="10" name="phone" id="phone" placeholder="Enter Your Phone No...." required><br>
+        <label for="">Your Message:-<span> *</span></label>
+        <input type="text" name="address" id="address" placeholder="Enter Your Address"><br>
+        <button type="submit" name="btnmessage">SEND MESSAGE</button>
+    </form>
+     </div>
+</body>
+</html>
