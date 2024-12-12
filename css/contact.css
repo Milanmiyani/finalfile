@@ -112,6 +112,10 @@ h1{
     color: orange;
     transition: 0.5s ease;
 }
+#map{
+   width: 100vw;
+   margin-top: 50px;
+}
 @media(max-width: 760px){
     
     .navbar nav .logo{
