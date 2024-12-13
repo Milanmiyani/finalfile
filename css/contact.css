@@ -63,18 +63,7 @@
     border-radius: 5px;
     border: 1px solid black;
 }
-.contact form #subjects{
-    margin-left: 12px;
-}
-.contact form #email{
-    margin-left: 22px;
-}
-.contact form #phone{
-    margin-left: 22px;
-}
-.contact form #address{
-    margin-left: 5px;
-}
+
 .contact form button{
     background-color: orange;
     border: 1px solid orange;
