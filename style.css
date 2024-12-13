@@ -262,7 +262,16 @@ h1:hover{
         position: relative;
     
     }
-    
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer .cols{
+        width: 180px;
+        overflow: hidden;
+    }
     
 
 }
