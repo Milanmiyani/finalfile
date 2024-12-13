@@ -176,7 +176,7 @@ h1:hover{
     margin-bottom: 10px;
 }
 .service form input{
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px 12px;
     border-radius: 5px;
     border: 2px solid orange;
@@ -185,7 +185,7 @@ h1:hover{
 .service form button{
     background-color: black;
     color: white;
-    padding: 7px 17px;
+    padding: 7px 10px;
     margin: 20px;
     border-radius: 5px;
     font-size: 16px;
@@ -233,11 +233,15 @@ h1:hover{
         border-radius: 5px;
         transition: 0.5s ease;
     }
+    .service{
+        margin-bottom: -50px;
+    }
     .service form input{
         width: 225px;
     }
     .service  p{
-        font-size: 18px;
+        margin-top: -10px;
+        font-size: 10px;
     }
     .footer .cols #p3{
         font-size: 16px;
@@ -258,38 +262,7 @@ h1:hover{
         position: relative;
     
     }
-    .footer{
-        flex-direction:column;
-        text-align: center;
-    }
-    .footer .cols #p1,#p2{
-        font-size:16px;
-       
-    }
     
-    .footer .cols h2{
-        padding-top: 20px;
-    }
-    .footer .cols a{
-        font-size: 14px;
-        color: black;
-        text-decoration: none;
-        
-    }
-    .footer .cols a:hover{
-        color: gray;
-    }
-    .footer .cols #p3{
-        font-size: 16px;
-       
-    }
-    .footer .cols i{
-        font-size: 18px;
-        padding:10px 18px;
-    }
-    .footer .cols i:hover{
-     color: blue;
-    }
     
 
 }
