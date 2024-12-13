@@ -263,14 +263,36 @@ h1:hover{
     
     }
     .footer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
+        flex-direction:column;
+        text-align: center;
     }
-    .footer .cols{
-        width: 180px;
-        overflow: hidden;
+    .footer .cols #p1,#p2{
+        font-size:16px;
+       
+    }
+    
+    .footer .cols h2{
+        padding-top: 20px;
+    }
+    .footer .cols a{
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        
+    }
+    .footer .cols a:hover{
+        color: gray;
+    }
+    .footer .cols #p3{
+        font-size: 16px;
+       
+    }
+    .footer .cols i{
+        font-size: 18px;
+        padding:10px 18px;
+    }
+    .footer .cols i:hover{
+     color: blue;
     }
     
 
