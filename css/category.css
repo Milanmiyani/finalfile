@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.navbar{
+    padding: 0px 0px;
+}
+.navbar nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f5f5f5;
+}
+.navbar nav .logo{
+   margin:  10px 14px;
+}
+.navbar nav img{
+    display: flex;
+    height: 50px;
+   margin: 3px 9px;
+
+}
+.navbar nav .link a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 8px;
+    color: black;
+}
+.navbar nav .link a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.background img{
+background-size: cover;
+background-repeat:no-repeat;
+width: 100vw;
+height: 50vh;
+position: relative;
+}
