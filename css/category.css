@@ -40,3 +40,17 @@ width: 100vw;
 height: 50vh;
 position: relative;
 }
+
+
+@media(max-width: 760px){
+    .background img{
+        height: 30vh;
+    }
+}
+
+@media(max-width: 1025px)
+{
+    .background img{
+        height: 30vh;
+    }
+}
