@@ -41,7 +41,37 @@ height: 50vh;
 position: relative;
 }
 
-
+.category{
+    margin-top: 50px;
+}
+.category h1{
+text-align: center;
+font-size: 24px;
+margin-bottom: 20px;
+font-family: Georgia, serif;
+}
+.category h1:hover{
+color: orange;
+transition: 0.3s ease;
+}
+.category .link{
+    text-align: center;
+}
+.category .link a{
+    padding: 4px 23px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid orange;
+    margin: 5px;
+}
+.category .link a:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease;
+}
 @media(max-width: 760px){
     .background img{
         background-size: cover;
@@ -70,6 +100,21 @@ position: relative;
         border-radius: 5px;
         transition: 0.5s ease;
     }
+    .category h1{
+        font-size: 16px;
+        margin-top: -30px;
+
+    }
+    .category .link a{
+        padding: 2px 6px;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid orange;
+        margin: 5px;
+    }
   
 }
 
@@ -78,7 +123,20 @@ position: relative;
         background-size: cover;
         background-repeat:no-repeat;
         width: 100vw;
-        height: 30vh;
+        height: 40vh;
         position: relative;
+    }
+    .category h1{
+        margin-top: -20px;
+    }
+    .category .link a{
+        padding: 3px 20px;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid orange;
+        margin: 5px;
     }
 }
