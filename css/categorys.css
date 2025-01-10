@@ -92,6 +92,7 @@ transition: 0.3s ease;
     border-bottom: 1px solid black;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+
 }
 .product .box .info{
     text-align: center;
@@ -102,7 +103,6 @@ transition: 0.3s ease;
 }
 .product .box p{
     font-size: 20px;
- 
     padding: 5px 0px;
 }
 .checked{
