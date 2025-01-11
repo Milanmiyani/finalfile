@@ -124,7 +124,7 @@
         color: white;
         font-size: 16px;
         border-radius: 5px;
-        padding: 5px 13px;
+        padding: 5px 14px;
     }
     .product .box form #addtocard:hover{
         background-color: white;
@@ -138,7 +138,7 @@
         color: white;
         font-size: 16px;
         border-radius: 5px;
-        padding: 5px 18px;
+        padding: 5px 19px;
     }
     .product .box form #buynow:hover{
         background-color: white;
