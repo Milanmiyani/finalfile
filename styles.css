@@ -106,10 +106,7 @@ h1{
     color: black;
     transition: 0.5s ease;
 }
-
-.product .box form  a{
-    color: white;
-    text-decoration: none;
+.product .box form #buynow{
     background-color: orange;
     border: 1px solid orange;
     color: white;
@@ -118,11 +115,12 @@ h1{
     padding: 5px 18px;
     text-decoration: none;
 }
-.product .box form a:hover{
+.product .box form #buynow:hover{
+    background-color: white;
+    border: 1px solid orange;
     color: black;
     transition: 0.5s ease;
 }
-
 
 .footer{
     display: flex;
