@@ -33,6 +33,7 @@
 .header .nav .navpart2 i{
     font-size: 2vw;
     font-weight: 600;
+    display: none;
 }
 
 @media (max-width:600px) {
@@ -51,6 +52,7 @@
         }
     .header .nav .navpart2 i{
         font-size: 5vw;
+        display: block;
 
     }
    
