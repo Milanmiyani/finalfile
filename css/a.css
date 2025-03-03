@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #f4f4f4;
+    background-position: center;
+    position:sticky;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-box{
+    width:60vw;
+    height: auto;
+    background-color: #ffff;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .login-box img{
+    margin-bottom: 20px;
+  }
+  .login-box form {
+    justify-content: center;
+  
+  }
+  .login-box form label{
+    font-size: 20px;
+    color: grey;
+  }
+  .login-box form input{
+    font-size: 14px;
+    padding: 8px 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    width: 40vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #address{
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    width: 40vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .login-box form button{
+    font-size: 16px;
+    padding: 7px 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    width: 20vw;
+    background-color: #0096FF;
+    color: white;
+    margin-top: 18px;
+
+  }
+  .login-box .signup-link{
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+.login-box i{
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+.login-box i h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width:600px) {
+    .login-box{
+        width:80vw;
+      }
+      .login-box form label{
+        font-size: 19px;
+        color: grey;
+      }
+      .login-box form input{
+        width: 60vw;
+      }
+      #address{
+        width: 60vw;
+      }
+      .login-box form button{
+        width: 30vw;
+      }
+}
